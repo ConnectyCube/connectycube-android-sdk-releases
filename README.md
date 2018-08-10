@@ -25,7 +25,7 @@ allprojects {
     }
 }
 
-def sdkVersion = '1.0.1'
+def sdkVersion = '1.0.2'
 ```
 
 And the following code to your **module's** `build.gradle` file:

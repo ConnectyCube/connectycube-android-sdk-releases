@@ -34,7 +34,7 @@ And the following code to your **module's** `build.gradle` file:
 dependencies {
     //
     сompile "com.connectycube:connectycube-android-sdk-chat:$rootProject.sdkVersion" // all transitive modules will be included automatically
-    сompile "com.connectycube:connectycube-android-sdk-videochat-webrtc:$rootProject.sdkVersion"
+    сompile "com.connectycube:connectycube-android-sdk-videochat:$rootProject.sdkVersion"
     сompile "com.connectycube:connectycube-android-sdk-storage:$rootProject.sdkVersion"
     сompile "com.connectycube:connectycube-android-sdk-pushnotifications:$rootProject.sdkVersion"
 }

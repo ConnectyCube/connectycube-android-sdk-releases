@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.connectycube</groupId>
+  <artifactId>connectycube-android-sdk-chat</artifactId>
+  <version>1.1.0</version>
+  <packaging>aar</packaging>
+  <name>ConnectyCube</name>
+  <url>https://connectycube.com</url>
+  <inceptionYear>2018</inceptionYear>
+  <dependencies>
+    <dependency>
+      <groupId>com.connectycube</groupId>
+      <artifactId>connectycube-android-sdk-core</artifactId>
+      <version>1.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jxmpp</groupId>
+      <artifactId>jxmpp-core</artifactId>
+      <version>0.5.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>de.measite.minidns</groupId>
+      <artifactId>minidns</artifactId>
+      <version>0.1.7</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

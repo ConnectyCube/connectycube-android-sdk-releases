@@ -2,13 +2,15 @@
 
 This repository contains binary distributions of Android products released by ConnectyCube.
 
-If you have any questions, comments, or issues related to any products distributed via this repository then please raise an issue here on GitHub repository or contact the team by emailing support@connectycube.com.
+If you have any questions, comments, or issues related to any products distributed via this repository then please raise an issue here on GitHub repository or contact the team by emailing [support@connectycube.com](mailto:support@connectycube.com).
 
 # ConnectyCube SDK
 
 This repository contains releases of the Android SDK for interacting with the ConnectyCube communications cloud.
 
 It provides a simple interface to the messaging, video calling (WebRTC), push notifications, users management and cloud files storage capabilities provided by the platform. 
+
+[Getting Started with ConnectyCube Android SDK](https://developers.connectycube.com/android/)
 
 # Installation
 

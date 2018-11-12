@@ -3,7 +3,7 @@
   <groupId>com.connectycube</groupId>
   <artifactId>connectycube-android-sdk-extensions</artifactId>
   <versioning>
-    <release>1.3.1</release>
+    <release>1.4.0</release>
     <versions>
       <version>1.0.0</version>
       <version>1.0.1</version>
@@ -12,7 +12,8 @@
       <version>1.2.0</version>
       <version>1.3.0</version>
       <version>1.3.1</version>
+      <version>1.4.0</version>
     </versions>
-    <lastUpdated>20181019101315</lastUpdated>
+    <lastUpdated>20181112160155</lastUpdated>
   </versioning>
 </metadata>

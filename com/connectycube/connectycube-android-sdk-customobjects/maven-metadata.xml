@@ -3,7 +3,7 @@
   <groupId>com.connectycube</groupId>
   <artifactId>connectycube-android-sdk-customobjects</artifactId>
   <versioning>
-    <release>1.9.0</release>
+    <release>1.9.1</release>
     <versions>
       <version>1.0.0</version>
       <version>1.0.1</version>
@@ -20,7 +20,8 @@
       <version>1.8.1</version>
       <version>1.8.2</version>
       <version>1.9.0</version>
+      <version>1.9.1</version>
     </versions>
-    <lastUpdated>20200327145407</lastUpdated>
+    <lastUpdated>20200410112604</lastUpdated>
   </versioning>
 </metadata>

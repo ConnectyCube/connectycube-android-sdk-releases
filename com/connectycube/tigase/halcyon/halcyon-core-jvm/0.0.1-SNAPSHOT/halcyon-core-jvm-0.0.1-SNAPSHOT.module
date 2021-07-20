@@ -1,0 +1,108 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../halcyon-core/0.0.1-SNAPSHOT/halcyon-core-0.0.1-SNAPSHOT.module",
+    "group": "com.connectycube.tigase.halcyon",
+    "module": "halcyon-core",
+    "version": "0.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "sn4em7wkabdxbpvbo4t6n3lgea"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvm-api",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "halcyon-core-jvm-0.0.1-SNAPSHOT.jar",
+          "url": "halcyon-core-jvm-0.0.1-SNAPSHOT.jar",
+          "size": 1582515,
+          "sha512": "8716584f664bb134528eb14b82a5f13f5ee947f5518e33f99a27613c8bccc053a6322247f5e18382558545e4b0ae1883e3aed040fc1ace969cf91bed5f868125",
+          "sha256": "76e72200740b0f0ac16dd753469dd82e9ac3756358b128b7605c7f4cda419240",
+          "sha1": "a1f8d08f2e8d1a8df02de7d38cc2a7b3ad348bb1",
+          "md5": "5033d767096b93a6ddcabee6940f360e"
+        }
+      ]
+    },
+    {
+      "name": "jvm-runtime",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "org.minidns",
+          "module": "minidns-hla",
+          "version": {
+            "requires": "0.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.soywiz.korlibs.krypto",
+          "module": "krypto",
+          "version": {
+            "requires": "2.0.0-rc3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "halcyon-core-jvm-0.0.1-SNAPSHOT.jar",
+          "url": "halcyon-core-jvm-0.0.1-SNAPSHOT.jar",
+          "size": 1582515,
+          "sha512": "8716584f664bb134528eb14b82a5f13f5ee947f5518e33f99a27613c8bccc053a6322247f5e18382558545e4b0ae1883e3aed040fc1ace969cf91bed5f868125",
+          "sha256": "76e72200740b0f0ac16dd753469dd82e9ac3756358b128b7605c7f4cda419240",
+          "sha1": "a1f8d08f2e8d1a8df02de7d38cc2a7b3ad348bb1",
+          "md5": "5033d767096b93a6ddcabee6940f360e"
+        }
+      ]
+    },
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../halcyon-core-metadata/0.0.1-SNAPSHOT/halcyon-core-metadata-0.0.1-SNAPSHOT.module",
+        "group": "com.connectycube.tigase.halcyon",
+        "module": "halcyon-core-metadata",
+        "version": "0.0.1-SNAPSHOT"
+      }
+    }
+  ]
+}

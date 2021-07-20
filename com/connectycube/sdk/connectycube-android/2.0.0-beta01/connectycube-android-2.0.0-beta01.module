@@ -1,0 +1,253 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../connectycube/2.0.0-beta01/connectycube-2.0.0-beta01.module",
+    "group": "com.connectycube.sdk",
+    "module": "connectycube",
+    "version": "2.0.0-beta01",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.3",
+      "buildId": "hsrrtrmukfg2ffsymrxncgiuxy"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "com.android.build.gradle.internal.dependency.AndroidTypeAttr": "Aar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.webrtc",
+          "module": "google-webrtc",
+          "version": {
+            "requires": "1.0.24180"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "connectycube-release.aar",
+          "url": "connectycube-android-2.0.0-beta01.aar",
+          "size": 1036776,
+          "sha512": "db9682499e0c08777a004c174527cf30f54565e3e2cd435d08a527f1f3a9fb68d7d22a3ab59ea8ae41d9c3d528bbd59788db38bad0733afbf375543efa1f801c",
+          "sha256": "d9733fcf73d0a88383b9b69e60494569b882e9f200a9241d1af5b30dccc0f8ef",
+          "sha1": "21580fd698ecfc26dcfa5643c34629afcfde806a",
+          "md5": "763de69caa32e7bf504e6a89e7ad6304"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "com.android.build.gradle.internal.dependency.AndroidTypeAttr": "Aar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.webrtc",
+          "module": "google-webrtc",
+          "version": {
+            "requires": "1.0.24180"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.30"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.30"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core-jvm",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json-jvm",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-android",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging-jvm",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-protobuf",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "com.benasher44",
+          "module": "uuid",
+          "version": {
+            "requires": "0.2.2"
+          }
+        },
+        {
+          "group": "com.soywiz.korlibs.krypto",
+          "module": "krypto",
+          "version": {
+            "requires": "2.0.7"
+          }
+        },
+        {
+          "group": "com.soywiz.korlibs.klock",
+          "module": "klock",
+          "version": {
+            "requires": "2.0.7"
+          }
+        },
+        {
+          "group": "com.soywiz.korlibs.korio",
+          "module": "korio",
+          "version": {
+            "requires": "2.0.10"
+          }
+        },
+        {
+          "group": "com.connectycube.tigase.halcyon",
+          "module": "halcyon-core",
+          "version": {
+            "requires": "0.0.1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "com.soywiz.korlibs.krypto",
+              "module": "krypto-jvm"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-io",
+          "version": {
+            "requires": "0.1.16"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-android-extensions-runtime",
+          "version": {
+            "requires": "1.4.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "connectycube-release.aar",
+          "url": "connectycube-android-2.0.0-beta01.aar",
+          "size": 1036776,
+          "sha512": "db9682499e0c08777a004c174527cf30f54565e3e2cd435d08a527f1f3a9fb68d7d22a3ab59ea8ae41d9c3d528bbd59788db38bad0733afbf375543efa1f801c",
+          "sha256": "d9733fcf73d0a88383b9b69e60494569b882e9f200a9241d1af5b30dccc0f8ef",
+          "sha1": "21580fd698ecfc26dcfa5643c34629afcfde806a",
+          "md5": "763de69caa32e7bf504e6a89e7ad6304"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../connectycube-metadata/2.0.0-beta01/connectycube-metadata-2.0.0-beta01.module",
+        "group": "com.connectycube.sdk",
+        "module": "connectycube-metadata",
+        "version": "2.0.0-beta01"
+      }
+    }
+  ]
+}

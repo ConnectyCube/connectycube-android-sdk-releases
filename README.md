@@ -27,18 +27,32 @@ allprojects {
     }
 }
 
-def sdkVersion = '1.9.2'
 ```
 
 And the following code to your **module's** `build.gradle` file:
 
+For **V2** :
+
 ```groovy
+def sdkVersion = '2.0.0-beta01'
+
+dependencies {
+implementation "com.connectycube.sdk:connectycube-android:$sdkVersion"
+}
+
+```
+
+For **V1** :
+
+```groovy
+def sdkVersion = '1.9.2'
+
 dependencies {
     //
-    implementation "com.connectycube:connectycube-android-sdk-chat:$rootProject.sdkVersion" // all transitive modules will be included automatically
-    implementation "com.connectycube:connectycube-android-sdk-videochat:$rootProject.sdkVersion"
-    implementation "com.connectycube:connectycube-android-sdk-storage:$rootProject.sdkVersion"
-    implementation "com.connectycube:connectycube-android-sdk-pushnotifications:$rootProject.sdkVersion"
+    implementation "com.connectycube:connectycube-android-sdk-chat:$sdkVersion" // all transitive modules will be included automatically
+    implementation "com.connectycube:connectycube-android-sdk-videochat:$sdkVersion"
+    implementation "com.connectycube:connectycube-android-sdk-storage:$sdkVersion"
+    implementation "com.connectycube:connectycube-android-sdk-pushnotifications:$sdkVersion"
 }
 ```
 

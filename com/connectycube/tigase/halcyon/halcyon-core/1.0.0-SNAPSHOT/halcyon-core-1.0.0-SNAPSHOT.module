@@ -1,0 +1,280 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.connectycube.tigase.halcyon",
+    "module": "halcyon-core",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.20"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.4.0"
+          }
+        },
+        {
+          "group": "com.soywiz.korlibs.krypto",
+          "module": "krypto",
+          "version": {
+            "requires": "4.0.0-beta3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "halcyon-core-metadata-1.0.0-SNAPSHOT.jar",
+          "url": "halcyon-core-1.0.0-SNAPSHOT.jar",
+          "size": 113988,
+          "sha512": "71a83f59ea2cd7c0489bbf55f867c5df8840e76b66f4acb13cbe7a19021a730502ef1044871cc41cb9cdd52230f8af2e49ce45ed1206072c48ffc4b3368aff8a",
+          "sha256": "f4d1481ddcb730ce28a9460a0faef17c08beb56473ac8cf0c250ef7f75164b8a",
+          "sha1": "ee9d2737a4e5999504d6e7fcd16ecb65047e8f1e",
+          "md5": "061799f664f229f49b08e00bc28139f8"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "halcyon-core-kotlin-1.0.0-SNAPSHOT-sources.jar",
+          "url": "halcyon-core-1.0.0-SNAPSHOT-sources.jar",
+          "size": 245053,
+          "sha512": "a79d31a0bbffb9a6688e6751b882769fba6ad3bed08e7eddefdf0ed4f95a599cc35240dfb60e3bcba9c2fedded1b9343e916304fa8dd5415f4bc00d7dc3be201",
+          "sha256": "4c0cd7b91da01cfd956c881f5227930f0f0d835d1a529606155acd928f64e097",
+          "sha1": "8923b707fe2dde4636b83cd541ae66ea577b9bc8",
+          "md5": "465062dacfab0bc15b8d42e3a1351cf7"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../halcyon-core-iosarm64/1.0.0-SNAPSHOT/halcyon-core-iosarm64-1.0.0-SNAPSHOT.module",
+        "group": "com.connectycube.tigase.halcyon",
+        "module": "halcyon-core-iosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../halcyon-core-iosarm64/1.0.0-SNAPSHOT/halcyon-core-iosarm64-1.0.0-SNAPSHOT.module",
+        "group": "com.connectycube.tigase.halcyon",
+        "module": "halcyon-core-iosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../halcyon-core-iosarm64/1.0.0-SNAPSHOT/halcyon-core-iosarm64-1.0.0-SNAPSHOT.module",
+        "group": "com.connectycube.tigase.halcyon",
+        "module": "halcyon-core-iosarm64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../halcyon-core-iosx64/1.0.0-SNAPSHOT/halcyon-core-iosx64-1.0.0-SNAPSHOT.module",
+        "group": "com.connectycube.tigase.halcyon",
+        "module": "halcyon-core-iosx64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../halcyon-core-iosx64/1.0.0-SNAPSHOT/halcyon-core-iosx64-1.0.0-SNAPSHOT.module",
+        "group": "com.connectycube.tigase.halcyon",
+        "module": "halcyon-core-iosx64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../halcyon-core-iosx64/1.0.0-SNAPSHOT/halcyon-core-iosx64-1.0.0-SNAPSHOT.module",
+        "group": "com.connectycube.tigase.halcyon",
+        "module": "halcyon-core-iosx64",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../halcyon-core-js/1.0.0-SNAPSHOT/halcyon-core-js-1.0.0-SNAPSHOT.module",
+        "group": "com.connectycube.tigase.halcyon",
+        "module": "halcyon-core-js",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../halcyon-core-js/1.0.0-SNAPSHOT/halcyon-core-js-1.0.0-SNAPSHOT.module",
+        "group": "com.connectycube.tigase.halcyon",
+        "module": "halcyon-core-js",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../halcyon-core-js/1.0.0-SNAPSHOT/halcyon-core-js-1.0.0-SNAPSHOT.module",
+        "group": "com.connectycube.tigase.halcyon",
+        "module": "halcyon-core-js",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../halcyon-core-jvm/1.0.0-SNAPSHOT/halcyon-core-jvm-1.0.0-SNAPSHOT.module",
+        "group": "com.connectycube.tigase.halcyon",
+        "module": "halcyon-core-jvm",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../halcyon-core-jvm/1.0.0-SNAPSHOT/halcyon-core-jvm-1.0.0-SNAPSHOT.module",
+        "group": "com.connectycube.tigase.halcyon",
+        "module": "halcyon-core-jvm",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../halcyon-core-jvm/1.0.0-SNAPSHOT/halcyon-core-jvm-1.0.0-SNAPSHOT.module",
+        "group": "com.connectycube.tigase.halcyon",
+        "module": "halcyon-core-jvm",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    }
+  ]
+}

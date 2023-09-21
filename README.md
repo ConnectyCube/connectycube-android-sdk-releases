@@ -36,7 +36,7 @@ And the following code to your **module's** `build.gradle` file:
 For **V2** :
 
 ```groovy
-def sdkVersion = '2.0.0-beta03'
+def sdkVersion = '2.0.0-beta04'
 
 dependencies {
 implementation "com.connectycube.sdk:connectycube-android:$sdkVersion"

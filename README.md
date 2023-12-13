@@ -6,7 +6,7 @@ This repository contains binary distributions of Android products released by Co
 
 If you have any questions, comments, or issues related to any products distributed via this repository then please raise an issue here on GitHub repository or contact the team by emailing [support@connectycube.com](mailto:support@connectycube.com).
 
-# ConnectyCube SDK
+## ConnectyCube SDK
 
 This repository contains releases of the Android SDK for interacting with the ConnectyCube communications cloud.
 
@@ -14,7 +14,7 @@ It provides a simple interface to the messaging, video calling (WebRTC), push no
 
 [Getting Started with ConnectyCube Android SDK](https://developers.connectycube.com/android/)
 
-# Installation
+## Installation
 
 The ConnectyCube Android SDK can be installed directly into your application by importing sdk artifacts via Gradle.
 
@@ -58,10 +58,13 @@ dependencies {
 }
 ```
 
-# Contact
+## Have an issue?
 
-You can reach the ConnectyCube team at any time by emailing [support@connectycube.com](mailto:support@connectycube.com).
+Got troubles with integration? Create an issue at [Issues page](https://github.com/ConnectyCube/connectycube-android-sdk-releases/issues).
 
-# Licence 
+**Want to support our team**:<br>
+<a href="https://www.buymeacoffee.com/connectycube" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+# License 
 
 ConnectyCube SDK for Android is licensed under the ConnectyCube SDK License.

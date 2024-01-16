@@ -1,0 +1,545 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../connectycube/2.0.0-beta05/connectycube-2.0.0-beta05.module",
+    "group": "com.connectycube.sdk",
+    "module": "connectycube",
+    "version": "2.0.0-beta05",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.connectycube.org.webrtc",
+          "module": "google-webrtc",
+          "version": {
+            "requires": "1.0.24180"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "connectycube-release.aar",
+          "url": "connectycube-android-2.0.0-beta05.aar",
+          "size": 1460076,
+          "sha512": "eb97d35fccffac7b53a0dd3e37fa164ea5daed2d3c47b27bcbcbdf4643abff4dcbe0ef771a24b667b1546b2749c35ac757fee7f3cddc05aa3c02f6b1dd95e68f",
+          "sha256": "eaa0f812be119505753a7a8abeeda17ced9f49dc80fa6a36df36e652c3cf7a1a",
+          "sha1": "9e4abae9575bba82fe334eb4e481e23b161b018c",
+          "md5": "3634126288c798106baed68eee1b1388"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.connectycube.org.webrtc",
+          "module": "google-webrtc",
+          "version": {
+            "requires": "1.0.24180"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core-jvm",
+          "version": {
+            "requires": "2.3.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json-jvm",
+          "version": {
+            "requires": "2.3.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-android",
+          "version": {
+            "requires": "2.3.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging-jvm",
+          "version": {
+            "requires": "2.3.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.5.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.9.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.21"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.3"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "2.3.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json",
+          "version": {
+            "requires": "2.3.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "2.3.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization",
+          "version": {
+            "requires": "2.3.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "2.3.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-protobuf",
+          "version": {
+            "requires": "1.5.1"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "com.benasher44",
+          "module": "uuid",
+          "version": {
+            "requires": "0.2.2"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "com.soywiz.korlibs.krypto",
+          "module": "krypto",
+          "version": {
+            "requires": "4.0.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "com.soywiz.korlibs.klock",
+          "module": "klock",
+          "version": {
+            "requires": "4.0.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "com.soywiz.korlibs.korio",
+          "module": "korio",
+          "version": {
+            "requires": "4.0.0"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "com.connectycube.tigase.halcyon",
+          "module": "halcyon-core",
+          "version": {
+            "requires": "1.0.0-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "connectycube-release.aar",
+          "url": "connectycube-android-2.0.0-beta05.aar",
+          "size": 1460076,
+          "sha512": "eb97d35fccffac7b53a0dd3e37fa164ea5daed2d3c47b27bcbcbdf4643abff4dcbe0ef771a24b667b1546b2749c35ac757fee7f3cddc05aa3c02f6b1dd95e68f",
+          "sha256": "eaa0f812be119505753a7a8abeeda17ced9f49dc80fa6a36df36e652c3cf7a1a",
+          "sha1": "9e4abae9575bba82fe334eb4e481e23b161b018c",
+          "md5": "3634126288c798106baed68eee1b1388"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "connectycube-android-2.0.0-beta05-sources.jar",
+          "url": "connectycube-android-2.0.0-beta05-sources.jar",
+          "size": 186519,
+          "sha512": "0468652f1e46142dde404b3b25eb945142de584f30d6fdab88001c564eef7e2a80797ae8f13ea0df006ead5459c0b2391c1b849c17e5f5aa3ffe03b2f61dfb00",
+          "sha256": "edc927fba5a220100c09a4f285e2882511afb4fb3946e66d7fa89328b702f46c",
+          "sha1": "8a2757746f42a3b293ee97f4b018c0e7c71be25b",
+          "md5": "fcce5dd1356d3aa912f45e331243c4d5"
+        }
+      ]
+    }
+  ]
+}

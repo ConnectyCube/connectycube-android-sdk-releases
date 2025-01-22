@@ -1,3 +1,19 @@
+## 2.0.1
+
+### New:
+  - Chat:
+    - implemented [Dialog permissions](https://developers.connectycube.com/server/chat#dialog-permissions) feature;
+
+
+## 2.0.0
+
+### Deprecated API:
+
+- Auth:
+  - the function `signIn` was deprecated, use the `createSession(user)` instead;
+  - the function `signOut` was deprecated, use the `destroySession` instead;
+  - the authSecret was deprecated and will be removed
+
 ## 2.0.0-beta05
 
 ### Bug Fixes
